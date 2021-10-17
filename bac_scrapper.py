@@ -112,10 +112,6 @@ def run_scrapper(df) -> None:
     Save data into a csv file
     """
     datasets_100 = prepare_data(df, 1000)
-    # refs = []
-    # refs.append('3435454455')
-    # datasets_1000 = []
-    # datasets_1000.append(refs)
     start = time.time()
     results = []
     with concurrent.futures.ProcessPoolExecutor(max_workers = 10) as pexec:
@@ -126,10 +122,6 @@ def run_scrapper(df) -> None:
                 results = results + res
     df = pd.DataFrame(results, columns = columns)
     yield df
-    # df.to_csv('bac_orientation.csv')
-    # end = time.time()
-    # print(end - start)
-
 
 
 
@@ -201,7 +193,7 @@ def fast_scrapper(refs):
 
 def get_element(student_number, driver):
     """
-        Scrapp student information. 
+        Scrapp student info. 
         Convert selenium to Beautiful to facilate the scrapping.
         @params :
             student_number -> Reference
@@ -244,8 +236,8 @@ def get_element(student_number, driver):
         choices.append(celles[1].text.replace("\t", "").replace("\n", ""))
         choices.append(celles[4].text.replace("\t", "").replace("\n", ""))
         count += 1
-
-    print(choices)
+    
+    
     return choices
 
 

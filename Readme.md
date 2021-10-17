@@ -7,9 +7,10 @@ It uses mutlprocessing and multithreading to process the scrapping.
 This guideline is very important to run tewjih scrapper.
 
 **Prerequisites**:
-
-*Python3
-*Pip3
+<br >
+* Python3
+* Pip3
+<br >
 First of all, set up the environment of indeed Scrapper using this command.
 
 > python3 -m venv /path/to/new/virtual/environment
