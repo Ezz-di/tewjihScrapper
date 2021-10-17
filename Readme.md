@@ -1,10 +1,10 @@
-## Indeed Scrapper
+## Tewjih Scrapper
 This python script (Selenium/BeautifulSoup) used to scrap data from tewjih.mr.
 It uses mutlprocessing and multithreading to process the scrapping.
 
 
 ## Getting Started
-This guideline is very important to run indeed scrapper.
+This guideline is very important to run tewjih scrapper.
 
 **Prerequisites**:
 
