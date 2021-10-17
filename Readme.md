@@ -1,5 +1,6 @@
 ## Indeed Scrapper
-This python script (Selenium/BeautifulSoup) used to scrap job from fr.indeed.com. Then it stores data in hrflow board
+This python script (Selenium/BeautifulSoup) used to scrap data from tewjih.mr.
+It uses mutlprocessing and multithreading to process the scrapping.
 
 
 ## Getting Started
@@ -24,4 +25,4 @@ Once a virtual environement has been activated, install all the libraries in the
 Before runing the script, you must be sure that Chrome webdriver is already installed
 Now, run the script with this command
 
-> python indeed_scrapper.py
+> python bac_scrapper.py
