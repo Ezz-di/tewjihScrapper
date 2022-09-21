@@ -11,7 +11,7 @@ This guideline is very important to run tewjih scrapper.
 * Python3
 * Pip3
 <br >
-First of all, set up the environment of indeed Scrapper using this command.
+First of all, set up the environment of tewjih scrapper by using this command.
 
 > python3 -m venv /path/to/new/virtual/environment
 
@@ -19,7 +19,7 @@ Activate it as follow :
 
 > . /path/to/new/virtual/environment/bin/activate
 
-Once a virtual environement has been activated, install all the libraries in the requirements.txt using pip.
+Once the virtual environement has been activated, install all the libraries in the requirements.txt using pip.
 
 > pip install -r requirements.txt
 
